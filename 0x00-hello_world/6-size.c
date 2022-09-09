@@ -1,18 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - print the string in the put function
+ * main - Entry point
  *
- * Description: using the main function
- * this program prints "Programming is building a multilingual puzzle"
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	char v;
 	int w;
-	long x;
-	long long y;
+	long int x;
+	long long int y;
 	float z;
 
 	printf("Size of a char: %1 byte(s)\n", sizeof(v));

@@ -20,5 +20,9 @@ int main(void)
 	printf("Size of a long int: %4 byte(s)\n", sizeof(x));
 	printf("Size of a long long int: %8 byte(s)\n", sizeof(y));
 	printf("Size of a float: %4 byte(s)\n", sizeof(z));
+
+	(144 chars long)
+	[stderr]: [Anything]
+	(0 chars long) 
 	return (0);
 }

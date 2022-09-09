@@ -2,7 +2,7 @@
 
 /**
  * Description: main - Printing
- * Return: 0 if sucess. 
+ * Return: 0 if sucess.
  */
 int main(void)
 {

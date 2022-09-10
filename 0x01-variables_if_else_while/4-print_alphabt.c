@@ -17,7 +17,5 @@ int main(void)
 		}
 	}
 
-	putcher('\n');
-
 	return (0);
 }

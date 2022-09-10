@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prints a series of numbers with commas
+ 	* main - Prints a series of numbers with commas
  *
  *Return: Always (Success);
  */
@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar(c);
 		/**INDENT-OFF**/
-	if (c != '9')
+if (c != '9')
 								{
 								putchar(',');
 															putchar(' ');

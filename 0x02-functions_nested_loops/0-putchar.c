@@ -8,6 +8,6 @@
 int main(void)
 
 {
-	printf("_purchar\n");
+	printf("_purtchar\n");
 	return (0);
 }

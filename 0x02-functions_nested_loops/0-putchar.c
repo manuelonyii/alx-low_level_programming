@@ -1,5 +1,4 @@
 #include <unistd.h>
-#include "main.h"
 
 /**
  * main - Entry point
@@ -9,7 +8,7 @@
 int main(void)
 
 {
-	printf("_purchar")
+	printf("_purchar");
 	printf('\n');
 	return (0);
 }

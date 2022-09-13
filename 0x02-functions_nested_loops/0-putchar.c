@@ -1,13 +1,13 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
- * main - print putchar
+ * main - check the code
  *
  * Return: Always 0
- * /
-int main (void)
+ */
+int main(void)
 {
-putchar("Hello, World");
-putchar(\n);
-return (0);
+	_putchar("Hello" \n "world");
+	return (0);
 }
+

@@ -7,9 +7,9 @@
  */
 void print_alphabet(void)
 {
-		int n;
+		char n;
 
-			n = 'a'
+			n = 'a';
 				while (n <= 'z'; n++)
 					{
 								putchar(n);

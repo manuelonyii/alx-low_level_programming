@@ -3,7 +3,7 @@
 * times_table - print multiplication table
 */
 
-voidt times_table(void)
+void times_table(void)
 {
 
 int row;

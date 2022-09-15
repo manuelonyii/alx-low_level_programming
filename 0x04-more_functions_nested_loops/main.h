@@ -1,7 +1,7 @@
 int _putchar(char c);
 int _isupper(int c);
-int -isdigit(int c);
-int mul(in a, int b);
+int _isdigit(int c);
+int mul(int a, int b);
 void print_numders(void);
 void print_most_numbers(void);
 void print_numbers(void);

@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include  <stdio.h>
+#include <math.h>
 
 /**
 *main - prints the largest prime factor of 612852475143
@@ -20,7 +21,7 @@ max = 2;
 n /= 2;
 }
 
-for (i = 3; i <= sqrt(n); i = i = 2)
+for (i = 3; i <= sqrt(n); i = i + 2)
 {
 while (n % i == 0)
 {

@@ -42,7 +42,7 @@ return (-1); /* return -1 if no digits found */
 * s: integer
 * Return: integer 1 or -1
 */
-int find_sign(char *s)
+int -atoi(char *s)
 {
 int negatives = 0, i = 0, sign = 1;
 

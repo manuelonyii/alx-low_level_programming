@@ -1,27 +1,21 @@
 #include"main.h"
 
 /**
-* _strncat - appends src to the dest string
-* @dest: string to append by src
-* @src: string to append to dest
-* @n: largest number of bytes to append
-* Return: address of dest
+* _strncpy - copies a string
+* @dest: destination.
+* @src: source.
+* @n: amount of bytes from src.
+* Return: the pointer to dest.
 */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
-int c, d;
+int i;
 
-c = d = 0;
-while (*(dest + c))
-c++;
-while (d < n && *(src + d))
-{
-*(dest + c) = *(src + d);
-c++;
-d++;
-}
-if (d < n)
-*(dest + c) = *(src + d);
+for (i = 0; i < n && src[i] != '\0'; i++)
+dest[i] = src[i];
+for ( ; i < n; i++)
+dest[i] = '\0';
+
 return (dest);
 }

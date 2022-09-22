@@ -1,5 +1,5 @@
-#include"main.h"
-#include<stdio.h>
+#include "main.h"
+#include <stdio.h>
 
 /**
 * print_buffer - prints buffer
@@ -41,7 +41,8 @@ int c = *(b + o + i);
 if (c < 32 || c > 132)
 {
 c = '.';
-<F6>}
+< F6 >
+}
 printf("%c", c);
 }
 printf("\n");

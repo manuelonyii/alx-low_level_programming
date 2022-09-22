@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.>
 
 int main(void)
 {
@@ -10,10 +10,10 @@ int main(void)
 	a[2] = 1024;
 	p = &n;
 	/*
-	 * main - do something
-	 * write your line of code here...
+	 * main - magic
+	 * write yourline of code here...
 	 * Remember:
-	 * - you are not allowed to use a
+	 * - you are not alloewd to use a
 	 * - you are not allowed to modify
 	 * - only one statement
 	 * - you are not allowed to code anything else than this line of code

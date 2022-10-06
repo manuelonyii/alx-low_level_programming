@@ -32,7 +32,7 @@ free(str);
 * mul - multiplies a char with a string and places the answer into dest
 * @n: char to multiply
 * @num: string to multiply
- @num_index: last non NULL index of num
+* @num_index: last non NULL index of num
 * @dest: destination of multiplication
 * @dest_index: highest index to start addition
 *
@@ -115,7 +115,7 @@ int l1, l2, ln, ti, i;
 char *a;
 char *t;
 char e[] = "Error\n";
-
+[
 if (argc != 3 || check_for_digits(argv))
 {
 for (ti = 0; e[ti]; ti++)
@@ -127,7 +127,7 @@ for (l1 = 0; argv[1][l1]; l1++)
 for (l2 = 0; argv[2][l2]; l2++)
 ;
 ln = l1 + l2 + 1;
-a = malloc(ln * sizeof(char));
+a = malloc(ln *sizeof(char));
 if (a == NULL)
 {
 for (ti = 0; e[ti]; ti++)

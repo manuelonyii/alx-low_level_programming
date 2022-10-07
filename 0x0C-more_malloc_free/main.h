@@ -16,11 +16,11 @@ int_putchar(char c);
 /*functionsfor 101-mul.c */
 
 /**
-* error_exit - prints error with _putchar
-*              and exits with 98
-*
-* Return: Error 98 and exit(98)
-*/
+ * error_exit - prints error with _putchar
+ * and exits with 98
+ *
+ * Return: Error 98 and exit(98)
+ */
 
 int error_exit(void)
 {
@@ -35,13 +35,13 @@ exit(98);
 }
 
 /**
-* check_number - checks if string has only
-*                numbers
-*
-* @str: string to check
-*
-* Return: 0 is true 1 if false
-*/
+ * check_number - checks if string has only
+ *                numbers
+ *
+ * @str: string to check
+ *
+ * Return: 0 is true 1 if false
+ */
 
 int check_number(char *str)
 {
@@ -55,12 +55,12 @@ return (0);
 }
 
 /**
-* _length - get the length of strings
-*
-* @str: string to get length of
-*
-* Return: length of string
-*/
+ * _length - get the length of strings
+ *
+ * @str: string to get length of
+ *
+ * Return: length of string
+ */
 
 int _length(char *str)
 {
